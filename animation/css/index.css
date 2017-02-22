@@ -1,0 +1,440 @@
+
+/*all-pages STARTS*/
+.container{
+  width:70%;
+  position: relative;
+  margin: auto;
+}
+/*#pages{
+  background-image: url(../images/v_paper.png);
+}*/
+#logo-footer{
+  margin-left: 45%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+#copyright{
+  margin: auto;
+  position: relative;
+  font-family: 'Anton', sans-serif;
+  font-size: 70%;
+}
+#copyright a{
+text-decoration: none;
+color: black;
+}
+
+.header-logo{
+  position: relative;
+  margin: auto;
+}
+.manifesto{
+  font-family: 'Anton', sans-serif;
+  text-decoration:underline;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  font-size: 450%;
+}
+.verbar{
+  color: black;
+}
+.index-nav{
+    border:3px solid black;
+    word-spacing: 5px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.index-nav li{
+  display: inline;
+}
+.index-nav li a{
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+  text-decoration: none;
+  color: white;
+}
+
+.pages-nav{
+    border:3px solid black;
+    word-spacing: 5px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.pages-nav li{
+  display: inline;
+}
+.pages-nav li a{
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+  text-decoration: none;
+  color: black;
+}
+.index-logo{
+  margin: auto;
+  position: relative;
+}
+.paragraph{
+  border:3px solid black;
+  font-family: 'Abel', sans-serif;
+  color: black;
+  position: relative;
+  margin: auto;
+  top: 7px;
+  padding: 10%;
+}
+.first-word{
+  font-size: 180%;
+}
+.paragraph-words{
+
+  width: 42%;
+  padding: 6px;
+}
+
+/*background-color: #c51fbb;
+font-family: 'Anton', sans-serif;
+font-family: 'Abel', sans-serif;
+
+/*all-pages ENDS*/
+
+
+
+/*index STARTS*/
+#index{
+  background-color: #c51fbb
+}
+.index-title1{
+position: relative;
+margin: auto;
+margin-left: 45%;
+margin-right: 45%;
+}
+.index-title {
+    animation-name: appear;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 2px 7px white;
+    text-decoration:underline;
+    position: relative;
+    margin:auto;
+    text-align: center;
+    font-size: 70pt
+}
+
+
+@keyframes appear{
+  0%   {color: black;}
+  15%  {color:  #c51fbb;}
+  25%  {color: black;}
+  50%  {color:  #c51fbb;}
+  100% {color: black;}
+}
+
+.index-title2{
+    animation-name: appear2;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-delay: 2s;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 2px 7px white;
+    text-decoration: underline;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 70pt
+
+}
+
+@keyframes appear2{
+    0%   {color: black;}
+    15%  {color:  #c51fbb;}
+    25%  {color: black;}
+    50%  {color:  #c51fbb;}
+    100% {color: black;}
+}
+/*index ENDS*/
+
+/*animation-blast STARTS*/
+
+.blast-animation{
+  margin: auto;
+  position: relative;
+  height: 300px;
+}
+.one{ /*start location STARTS*/
+background-image: url(images/drop1.png);
+font-family: 'Anton', sans-serif;
+text-align:50px 50px;
+position: absolute;
+top:30px;
+left: 30px;
+height:170px;
+width:140px;
+transition: all 1s linear;
+animation: one 2s infinite;
+}
+
+.two{
+position: absolute;
+font-family: 'Anton', sans-serif;
+top:30px;
+left: 40px;
+transition: all 2s linear;
+height:50px;
+width:200px;
+animation: two 1s infinite;
+}
+.three{
+position: absolute;
+font-family: 'Anton', sans-serif;
+top:30px;
+left: 50px;
+transition: all 2s linear;
+height:50px;
+width:200px;
+animation: three 2s infinite;
+}
+.four{
+position: absolute;
+font-family: 'Anton', sans-serif;
+top:30px;
+left: 60px;
+transition: all 2s linear;
+height:50px;
+width:200px;
+animation: four 2s infinite;
+}
+.five{ /*start location ENDS*/
+position: absolute;
+font-family: 'Anton', sans-serif;
+top:30px;
+left: 70px;
+transition: all 1s linear;
+height:50px;
+width:200px;
+animation: five 2s infinite;
+}
+.blast-animation:hover .one{ /*end location STARTS*/
+  top:200px;
+left: 200px;
+}
+
+.blast-animation:hover .two{
+  top:200px;
+left: 300px;
+}
+.blast-animation:hover  .three{
+  top:200px;
+left: 400px;
+}
+.blast-animation:hover .four{
+  top:200px;
+left: 500px;
+}
+
+.blast-animation:hover .five{ /*end location ENDS*/
+  top:200px;
+left: 600px;
+}
+
+@keyframes .one {
+  50%{  top:300px; left: 100px;}
+}
+@keyframes .two {
+  50%{  top:200px; left: 200px;}
+}
+@keyframes .three {
+  50%{  top:100px; left: 300px;}
+}
+@keyframes .four {
+  50%{  top:200px; left: 200px;}
+}
+@keyframes .five {
+  50%{  top:100px; left: 300px;}
+}
+/*span.two_sec{ font-size:15em;}
+span.two_sec1{ font-size:5em;opacity:0.7;}
+span.two_sec2{ font-size:9em; opacity:0.5;}
+span.two_sec3{ font-size:8em;}
+span.two_sec4{ font-size:10em;opacity:0.7;}
+span.two_sec5{ font-size:12em;}
+span.two_sec6{ font-size:6em;}
+
+    .animation_playground {
+      position: absolute;
+      top: 86%;
+      left: -100px;
+      z-index: -1;
+      animation-duration: 2s;
+      animation-name: goRight;
+      animation-iteration-count: infinite;
+      animation: mymove 5s infinite;
+    }
+    .gun{
+      border:3px solid black;
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+      height: 400px;
+    }
+    .bullets{
+      font-family: 'Anton', sans-serif;
+      border:3px solid black;
+      margin: auto;
+      position:relative;
+      margin-top: 60px}
+
+
+    #one {
+        top:40px;
+        width: 100px;
+        position: relative;
+       	animation: mymove 1s infinite;
+        animation-delay: 1s;
+
+    }
+    #two{
+        top:-5px;
+        width: 100px;
+        position: relative;
+        animation:  mymove 2s infinite;
+        animation-delay: 2s;
+    }
+    #three{
+        top:-4px;
+        width: 100px;
+        position: relative;
+        animation:  mymove 3s infinite;
+        animation-delay: 3s;
+    }
+
+    #four{
+        top:700px;
+        width: 100px;
+        position: relative;
+        animation:  mymove 4s infinite;
+        animation-delay: 4s;
+    }
+
+    @keyframes mymove {
+      from{left:0px;}
+      to{left: 800px;}
+
+    }*/
+/*animation-blast ENDS*/
+
+  /*animation-curse STARTS*/
+  .curse_circle{
+    margin: auto;
+    position: relative;
+  }
+    .circle{
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    margin: auto;
+    position: relative;
+    height: 700px;
+    width: 700px;
+    border: 3px solid white;
+    background: url("../images/c-wheel.png") 0 0 no-repeat;
+  -webkit-transition: all 1.3s ease-in-out;
+	-moz-transition:    all 1.3s ease-in-out;
+	-o-transition:      all 1.3s ease-in-out;
+	-ms-transition:     all 1.3s ease-in-out;
+	}
+.circle:hover {
+  margin: auto;
+  position: relative;;
+	-webkit-transform: rotate(360deg) scale(1);
+	-moz-transform:    rotate(360deg) scale(1);
+	-o-transform:      rotate(360deg) scale(1);
+	-ms-transform:     rotate(360deg) scale(1);
+	}
+  /*animation-curse ENDS*/
+
+  /*animation-bless STARTS*/
+.rain{
+  height: 400px;
+}
+.rain p{
+  display: inline;
+}
+.r1{
+  background-image: url(../images/drop1.png);
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  top:49%;
+  left: 90px;
+  height:170px;
+  width:140px;
+  transition: all 1s linear;
+  animation: one 2s infinite;
+}
+.container:hover .r1{
+    top:68%;
+  }
+
+.r2{
+    background-image: url(../images/drop1.png);
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    top:47%;
+    left: 220px;
+    height:170px;
+    width:140px;
+    transition: all 1s linear;
+    animation: one 2s infinite;
+  }
+  .container:hover .r2{
+      top:68%;
+    }
+
+  .r3{
+      background-image: url(../images/drop1.png);
+      font-family: 'Anton', sans-serif;
+      position: absolute;
+      top:50%;
+      left: 350px;
+      height:170px;
+      width:140px;
+      transition: all 1s linear;
+      animation: one 2s infinite;
+    }
+  .container:hover .r3{
+      top:68%;
+      }
+  .r4{
+      background-image: url(../images/drop1.png);
+      font-family: 'Anton', sans-serif;
+      position: absolute;
+      top:47%;
+      left: 480px;
+      height:170px;
+      width:140px;
+      transition: all 1s linear;
+      animation: one 2s infinite;
+      }
+  .container:hover .r4{
+      top:68%;
+      }
+  .r5{
+      background-image: url(../images/drop1.png);
+      font-family: 'Anton', sans-serif;
+      position: absolute;
+      top:48%;
+      left: 610px;
+      height:170px;
+      width:140px;
+      transition: all 1s linear;
+      animation: one 2s infinite;
+      }
+  .container:hover .r5{
+      top:68%;
+      }
+  /*animation-bless ENDS*/
